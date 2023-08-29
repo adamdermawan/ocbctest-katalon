@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1A,Chrome 116.0.0.0,,,2023-08-24 23:26:39,2023-08-24 23:28:33,1m - 54.288s,ERROR
+,,,,,,,
+Test Cases/01 A/01_Basic_Auth,Chrome 116.0.0.0,,,2023-08-24 23:26:39,2023-08-24 23:26:49,9.947s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:26:40,2023-08-24 23:26:42,2.038s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:26:42,2023-08-24 23:26:42,0.152s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:26:42,2023-08-24 23:26:45,2.858s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Basic Auth""))",Chrome 116.0.0.0,,,2023-08-24 23:26:45,2023-08-24 23:26:45,0.720s,PASSED
+"authenticate(""https://the-internet.herokuapp.com/basic_auth"", ""admin"", ""admin"", 10)",Chrome 116.0.0.0,,,2023-08-24 23:26:45,2023-08-24 23:26:46,0.644s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-24 23:26:46,2023-08-24 23:26:48,2.019s,PASSED
+"verifyTextPresent(""Basic Auth"", true)",Chrome 116.0.0.0,,,2023-08-24 23:26:48,2023-08-24 23:26:48,0.320s,PASSED
+"verifyTextPresent(""Congratulations! You must have the proper credentials."", true)",Chrome 116.0.0.0,,,2023-08-24 23:26:48,2023-08-24 23:26:49,0.273s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 23:26:49,2023-08-24 23:26:49,0.625s,PASSED
+,,,,,,,
+Test Cases/01 A/02_AB_Testing,Chrome 116.0.0.0,,,2023-08-24 23:26:49,2023-08-24 23:27:22,32.704s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:26:49,2023-08-24 23:26:51,1.149s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:26:51,2023-08-24 23:26:51,0.127s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_AB Testing""))",Chrome 116.0.0.0,,,2023-08-24 23:26:51,2023-08-24 23:27:22,31.182s,FAILED
+,,,,,,,
+Test Cases/01 A/03_BrokenImages,Chrome 116.0.0.0,,,2023-08-24 23:27:22,2023-08-24 23:27:28,6.523s,ERROR
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:27:22,2023-08-24 23:27:24,1.755s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:27:24,2023-08-24 23:27:24,0.126s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:27:24,2023-08-24 23:27:27,3.233s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Broken Images""))",Chrome 116.0.0.0,,,2023-08-24 23:27:27,2023-08-24 23:27:28,1.045s,PASSED
+"image = ""Object Repository/Page_The Internet/img""",Chrome 116.0.0.0,,,2023-08-24 23:27:28,2023-08-24 23:27:28,0.000s,PASSED
+verifyImagePresent(image),Chrome 116.0.0.0,,,2023-08-24 23:27:28,2023-08-24 23:27:28,0.080s,ERROR
+,,,,,,,
+Test Cases/01 A/04_Checkbox,Chrome 116.0.0.0,,,2023-08-24 23:27:28,2023-08-24 23:27:36,7.772s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:27:29,2023-08-24 23:27:30,1.715s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:27:30,2023-08-24 23:27:31,0.158s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:27:31,2023-08-24 23:27:34,3.125s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Checkboxes""))",Chrome 116.0.0.0,,,2023-08-24 23:27:34,2023-08-24 23:27:34,0.798s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/input_checkbox1""))",Chrome 116.0.0.0,,,2023-08-24 23:27:34,2023-08-24 23:27:35,0.358s,PASSED
+"verifyElementChecked(findTestObject(""Object Repository/Page_The Internet/input_checkbox1""), 10)",Chrome 116.0.0.0,,,2023-08-24 23:27:35,2023-08-24 23:27:35,0.446s,PASSED
+"verifyElementChecked(findTestObject(""Object Repository/Page_The Internet/input_checkbox2""), 10)",Chrome 116.0.0.0,,,2023-08-24 23:27:35,2023-08-24 23:27:36,0.313s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 23:27:36,2023-08-24 23:27:36,0.610s,PASSED
+,,,,,,,
+Test Cases/01 A/05_drag_and_drop,Chrome 116.0.0.0,,,2023-08-24 23:27:36,2023-08-24 23:27:51,14.635s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:27:36,2023-08-24 23:27:38,1.121s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:27:38,2023-08-24 23:27:38,0.139s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:27:38,2023-08-24 23:27:41,3.134s,PASSED
+"click(findTestObject(""Object Repository/Drag_And_Drop/a_Drag and Drop""))",Chrome 116.0.0.0,,,2023-08-24 23:27:41,2023-08-24 23:27:41,0.678s,PASSED
+delay(4),Chrome 116.0.0.0,,,2023-08-24 23:27:41,2023-08-24 23:27:45,4.010s,PASSED
+"ObjectA = ""Object Repository/Drag_And_Drop/div_A""",Chrome 116.0.0.0,,,2023-08-24 23:27:45,2023-08-24 23:27:45,0.000s,PASSED
+"ObjectB = ""Object Repository/Drag_And_Drop/div_B""",Chrome 116.0.0.0,,,2023-08-24 23:27:45,2023-08-24 23:27:45,0.000s,PASSED
+"dragAndDropToObject(findTestObject(ObjectB), findTestObject(ObjectA))",Chrome 116.0.0.0,,,2023-08-24 23:27:45,2023-08-24 23:27:48,2.091s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-24 23:27:48,2023-08-24 23:27:50,2.007s,PASSED
+takeFullPageScreenshot(),Chrome 116.0.0.0,,,2023-08-24 23:27:50,2023-08-24 23:27:50,0.607s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 23:27:50,2023-08-24 23:27:51,0.612s,PASSED
+,,,,,,,
+Test Cases/01 A/06_drop_down,Chrome 116.0.0.0,,,2023-08-24 23:27:51,2023-08-24 23:27:58,7.073s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:27:51,2023-08-24 23:27:52,1.144s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:27:52,2023-08-24 23:27:52,0.139s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:27:52,2023-08-24 23:27:56,3.192s,PASSED
+"click(findTestObject(""Object Repository/dropdown/Page_The Internet/a_Dropdown""))",Chrome 116.0.0.0,,,2023-08-24 23:27:56,2023-08-24 23:27:56,0.791s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/dropdown/Page_The Internet/select_dropdown""), 1)",Chrome 116.0.0.0,,,2023-08-24 23:27:56,2023-08-24 23:27:57,0.937s,PASSED
+back(),Chrome 116.0.0.0,,,2023-08-24 23:27:57,2023-08-24 23:27:57,0.048s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 23:27:57,2023-08-24 23:27:58,0.603s,PASSED
+,,,,,,,
+Test Cases/01 A/07_filedownload,Chrome 116.0.0.0,,,2023-08-24 23:27:58,2023-08-24 23:28:10,11.848s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:27:58,2023-08-24 23:27:59,1.140s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:27:59,2023-08-24 23:27:59,0.139s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:27:59,2023-08-24 23:28:03,3.268s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Download""))",Chrome 116.0.0.0,,,2023-08-24 23:28:03,2023-08-24 23:28:03,0.789s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_sample-zip-file.zip""))",Chrome 116.0.0.0,,,2023-08-24 23:28:03,2023-08-24 23:28:04,0.613s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-24 23:28:04,2023-08-24 23:28:09,5.014s,PASSED
+filename = new java.io.File(C:\Users\adamd\Downloads\sample-zip-file.zip),Chrome 116.0.0.0,,,2023-08-24 23:28:09,2023-08-24 23:28:09,0.002s,PASSED
+filename.delete(),Chrome 116.0.0.0,,,2023-08-24 23:28:09,2023-08-24 23:28:09,0.000s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 23:28:09,2023-08-24 23:28:10,0.607s,PASSED
+,,,,,,,
+Test Cases/01 A/08_fileupload,Chrome 116.0.0.0,,,2023-08-24 23:28:10,2023-08-24 23:28:16,6.424s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:28:10,2023-08-24 23:28:11,1.133s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:28:11,2023-08-24 23:28:11,0.126s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:28:11,2023-08-24 23:28:15,3.352s,PASSED
+"click(findTestObject(""Object Repository/upload/Page_The Internet/a_File Upload""))",Chrome 116.0.0.0,,,2023-08-24 23:28:15,2023-08-24 23:28:16,1.031s,PASSED
+"path = ""C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg""",Chrome 116.0.0.0,,,2023-08-24 23:28:16,2023-08-24 23:28:16,0.000s,PASSED
+"uploadFile(findTestObject(""Object Repository/upload/Page_The Internet/input_File Uploader_file""), path)",Chrome 116.0.0.0,,,2023-08-24 23:28:16,2023-08-24 23:28:16,0.550s,FAILED
+,,,,,,,
+Test Cases/01 A/09_ForgotPassword,Chrome 116.0.0.0,,,2023-08-24 23:28:16,2023-08-24 23:28:25,8.337s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:28:16,2023-08-24 23:28:18,1.741s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:28:18,2023-08-24 23:28:18,0.124s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:28:18,2023-08-24 23:28:21,3.076s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/forgot password/Page_The Internet/a_Forgot Password""))",Chrome 116.0.0.0,,,2023-08-24 23:28:21,2023-08-24 23:28:22,0.807s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email""))",Chrome 116.0.0.0,,,2023-08-24 23:28:22,2023-08-24 23:28:23,0.347s,PASSED
+"setText(findTestObject(""Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email""), ""ayuadisti1998@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 23:28:23,2023-08-24 23:28:23,0.675s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/forgot password/Page_The Internet/button_Retrieve password""))",Chrome 116.0.0.0,,,2023-08-24 23:28:23,2023-08-24 23:28:24,0.720s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 23:28:24,2023-08-24 23:28:25,0.598s,PASSED
+,,,,,,,
+Test Cases/01 A/10_NotificationMessages,Chrome 116.0.0.0,,,2023-08-24 23:28:25,2023-08-24 23:28:33,8.765s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 23:28:25,2023-08-24 23:28:26,1.133s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 23:28:26,2023-08-24 23:28:26,0.139s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-08-24 23:28:26,2023-08-24 23:28:29,2.813s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Notification Messages""))",Chrome 116.0.0.0,,,2023-08-24 23:28:29,2023-08-24 23:28:30,1.184s,PASSED
+refresh(),Chrome 116.0.0.0,,,2023-08-24 23:28:30,2023-08-24 23:28:30,0.319s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Click here""))",Chrome 116.0.0.0,,,2023-08-24 23:28:30,2023-08-24 23:28:31,0.874s,PASSED
+try,Chrome 116.0.0.0,,,2023-08-24 23:28:31,2023-08-24 23:28:32,0.284s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Click here""))",Chrome 116.0.0.0,,,2023-08-24 23:28:32,2023-08-24 23:28:32,0.881s,PASSED
+try,Chrome 116.0.0.0,,,2023-08-24 23:28:32,2023-08-24 23:28:33,0.283s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 23:28:33,2023-08-24 23:28:33,0.585s,PASSED

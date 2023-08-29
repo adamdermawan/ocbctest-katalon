@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_register_email_negative_duplicate_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c17d8d72-48e6-4a8e-a04e-fcf1722200a4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_register_email_positive_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ad6e809-0d6a-4ffd-8768-4614114a1545</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Ganti kata sandi baru</name>
+   <tag></tag>
+   <elementGuidId>c94c795b-50bc-40ad-852b-52f08ea60c80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.my-3.ant-btn-primary.ant-btn-round.ant-btn-lg.ant-btn-block</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>74129f5d-41b6-475c-8f8e-0f64b32ddc5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>94d7e68d-3afd-404e-8475-788c12bcaf14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn my-3 ant-btn-primary ant-btn-round ant-btn-lg ant-btn-block</value>
+      <webElementGuid>fce8ec03-7c01-44bd-bf1a-9b10b6eb62fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ant-click-animating-without-extra-node</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>8a6e118e-d9fa-435f-9973-5db3d733be16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ganti kata sandi baru</value>
+      <webElementGuid>4d04a253-15bc-4a40-980b-78264fff33c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;infograph bg-soft-white&quot;]/div[@class=&quot;infograph-caption&quot;]/div[@class=&quot;ant-row px-3&quot;]/div[@class=&quot;ant-col ant-col-md-16 ant-col-md-offset-4 ant-col-lg-14 ant-col-lg-offset-5 ant-col-xl-10 ant-col-xl-offset-7&quot;]/form[@class=&quot;ant-form ant-form-horizontal ant-form--custom&quot;]/div[@class=&quot;text-center pt-5&quot;]/button[@class=&quot;ant-btn my-3 ant-btn-primary ant-btn-round ant-btn-lg ant-btn-block&quot;]</value>
+      <webElementGuid>5e85d58a-7ba6-4222-8c0a-ecf3d7c44387</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>7d505afe-e61d-4630-a9a4-3065b6274c72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/button</value>
+      <webElementGuid>dda3aff7-2c13-4368-b589-bdabe7f058fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Salah'])[1]/following::button[1]</value>
+      <webElementGuid>4536cf13-6842-40dc-befa-267c6d829cda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-mail'])[1]/following::button[1]</value>
+      <webElementGuid>8aa37031-e7ad-4514-a4d7-76ab60a3a51f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali ke beranda'])[1]/preceding::button[1]</value>
+      <webElementGuid>dde18732-932f-4a26-8a8a-801eb4c9b88e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>f0ff9399-dd49-4fdc-a742-dcd4d13fe808</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Ganti kata sandi baru' or . = 'Ganti kata sandi baru')]</value>
+      <webElementGuid>511f064c-d13e-4930-a6ec-ca720725966d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

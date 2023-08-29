@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_E-mail penggantian kata sandi sudah terkirim</name>
+   <tag></tag>
+   <elementGuidId>417dabda-ec36-4fb8-9ec4-9f3de3779538</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.widget__title.mt-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>7577b02a-44a7-461b-a56c-27c724041578</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>widget__title mt-5</value>
+      <webElementGuid>34d0c247-b702-4141-bcfa-6a160ad84c91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>E-mail penggantian kata sandi sudah terkirim</value>
+      <webElementGuid>083a7d42-a92b-44c9-8698-cbbc010c3680</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;infograph bg-soft-white&quot;]/div[@class=&quot;mt-30 infograph article bg-soft-white&quot;]/div[@class=&quot;infograph-caption text-center&quot;]/h1[@class=&quot;widget__title mt-5&quot;]</value>
+      <webElementGuid>4827142a-8e12-439b-8d52-d7bf0838d049</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/h1</value>
+      <webElementGuid>de72399a-439e-42a3-8685-5725d108c05a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali ke Ruangmom'])[1]/preceding::h1[1]</value>
+      <webElementGuid>6c6aeb4f-410c-4b9e-959f-3dd2c890673d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sahabat setia Mom masa kini'])[1]/preceding::h1[1]</value>
+      <webElementGuid>13e1dab2-cb0a-4738-8abf-33bc2ccc634e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='E-mail penggantian kata sandi sudah terkirim']/parent::*</value>
+      <webElementGuid>5117a36a-78ad-40f4-ae25-023af39570a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>5aaafcc3-466b-4b4a-8fac-f5d503d8f0d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'E-mail penggantian kata sandi sudah terkirim' or . = 'E-mail penggantian kata sandi sudah terkirim')]</value>
+      <webElementGuid>bc92b0b5-d5e7-40fa-aa2c-bd236448b4e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

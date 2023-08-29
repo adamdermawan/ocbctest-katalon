@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/01 B/01_register_email_positive_email","testCaseId":"Test Cases/01 B/01_register_email_positive_email","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/02_register_email_negative_email_scenario","testCaseId":"Test Cases/01 B/02_register_email_negative_email_scenario","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/03_register_email_negative_duplicate_email","testCaseId":"Test Cases/01 B/03_register_email_negative_duplicate_email","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/05_register_email_negative_pass_different","testCaseId":"Test Cases/01 B/05_register_email_negative_pass_different","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/04_register_email_negative_invalid_pass","testCaseId":"Test Cases/01 B/04_register_email_negative_invalid_pass","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/06_login_positive_valid_email","testCaseId":"Test Cases/01 B/06_login_positive_valid_email","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/07_login_negative_invalid_email","testCaseId":"Test Cases/01 B/07_login_negative_invalid_email","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/08_forgot_pass_positive","testCaseId":"Test Cases/01 B/08_forgot_pass_positive","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/09_search_positive","testCaseId":"Test Cases/01 B/09_search_positive","iterationVariableName":""}
+{"testCaseName":"Test Cases/01 B/10_search_negative_jaksel","testCaseId":"Test Cases/01 B/10_search_negative_jaksel","iterationVariableName":""}

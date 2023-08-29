@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Verifikasi e-mail mom</name>
+   <tag></tag>
+   <elementGuidId>e09f2c77-499a-42a9-afc3-34d144d2e895</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-result-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>18ebd234-658c-4e8d-a028-84ffcf4a84d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-result-title</value>
+      <webElementGuid>4fff79db-af6a-4658-8057-7b9b61811c14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verifikasi e-mail mom!</value>
+      <webElementGuid>1470a7db-1a32-4e4d-b4a7-595bc149f42e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;ant-result ant-result-success&quot;]/div[@class=&quot;ant-result-title&quot;]</value>
+      <webElementGuid>6be0de9a-0e99-4c7c-ab3c-452c66ffc50c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]</value>
+      <webElementGuid>9f970e25-71e4-40fa-87ba-f01c4181c751</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segera verifikasi e-mail mom, agar mom dapat masuk ke ruangmom'])[1]/preceding::div[1]</value>
+      <webElementGuid>20ce0980-da2d-4257-9b47-f693a0f710df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sahabat setia Mom masa kini'])[1]/preceding::div[2]</value>
+      <webElementGuid>54d45bff-feec-43ba-a738-09171536bc93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Verifikasi e-mail mom!']/parent::*</value>
+      <webElementGuid>648abe44-b89d-4bab-9e35-f3ed72c74912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]</value>
+      <webElementGuid>4c869747-ace3-477c-87df-bc965997cefa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Verifikasi e-mail mom!' or . = 'Verifikasi e-mail mom!')]</value>
+      <webElementGuid>74241789-198b-4b88-bbc1-84c52ce2cdd3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

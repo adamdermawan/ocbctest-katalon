@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Konfirmasi kata sandi tidak sesuai</name>
+   <tag></tag>
+   <elementGuidId>f5c49cb9-a237-4cd4-a824-86d4ff334437</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/div/form/div[3]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0feffa86-c4c8-43b1-9d47-5f0ea20e2ba5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-form-explain</value>
+      <webElementGuid>52591edd-51bc-40e1-9681-17bba15eaf2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Konfirmasi kata sandi tidak sesuai</value>
+      <webElementGuid>133ee86b-178d-4c72-b174-4922cc47b74c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;ant-row mb-5&quot;]/div[@class=&quot;ant-col ant-col-xs-22 ant-col-xs-offset-1 ant-col-sm-18 ant-col-sm-offset-3 ant-col-md-20 ant-col-md-offset-2 ant-col-lg-22 ant-col-lg-offset-1 ant-col-xl-18 ant-col-xl-offset-3&quot;]/div[@class=&quot;ant-row-flex container&quot;]/div[@class=&quot;ant-col ant-col-xs-order-1 ant-col-sm-order-1 ant-col-md-12 ant-col-md-order-2 ant-col-lg-12 ant-col-lg-order-2 ant-col-xl-12 ant-col-xl-order-2&quot;]/div[@class=&quot;infograph rmform mt-30 article--oldhover widget-signup&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col pb-4 ant-col-md-20 ant-col-md-offset-2 ant-col-lg-20 ant-col-lg-offset-2 ant-col-xl-20 ant-col-xl-offset-2&quot;]/form[@class=&quot;ant-form ant-form-horizontal ant-form--custom&quot;]/div[@class=&quot;ant-row ant-form-item ant-form-item-with-help&quot;]/div[@class=&quot;ant-col ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control has-error&quot;]/div[@class=&quot;ant-form-explain&quot;]</value>
+      <webElementGuid>d571157f-68ad-4f11-b85f-b79ea8531a9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/div/form/div[3]/div[2]/div/div</value>
+      <webElementGuid>edf1bf5f-b1c0-4122-861b-70287c46f135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ulangi Kata Sandi'])[1]/following::div[3]</value>
+      <webElementGuid>fe411f43-9689-4fde-acf4-7fca9c06c41c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kata Sandi'])[1]/following::div[8]</value>
+      <webElementGuid>ed24026d-4ad2-47c1-a0b1-702b1ec91761</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama panggilan Mom'])[1]/preceding::div[1]</value>
+      <webElementGuid>ea61ef86-fe8f-4fb6-8038-93ebc7afabd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merencanakan pernikahan'])[1]/preceding::div[5]</value>
+      <webElementGuid>cd03cf81-effb-4792-a3e0-3e2c7282ed50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Konfirmasi kata sandi tidak sesuai']/parent::*</value>
+      <webElementGuid>035dcb80-1285-4b2e-a7e4-2e1ebcb39d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div</value>
+      <webElementGuid>1c952173-5661-4738-bda8-120f353cbbeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Konfirmasi kata sandi tidak sesuai' or . = 'Konfirmasi kata sandi tidak sesuai')]</value>
+      <webElementGuid>2b0b74e8-73df-4fbd-bd51-992a069890af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

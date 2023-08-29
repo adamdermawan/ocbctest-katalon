@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Daftar menggunakan e-mail</name>
+   <tag></tag>
+   <elementGuidId>be652eb3-ee02-4fc0-8cbf-2ba57c457474</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-lg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e9cb8950-2349-4725-aa78-5999ed9ebe02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0dfef1e5-9562-4f85-a68b-9a26538d810c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-primary ant-btn-round ant-btn-lg</value>
+      <webElementGuid>c39beeed-d5f5-47d3-86f4-1d4a14200145</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar menggunakan e-mail</value>
+      <webElementGuid>c3a3d5f8-3e60-4252-ba20-b8fb4b9f2655</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;ant-row mb-5&quot;]/div[@class=&quot;ant-col ant-col-xs-22 ant-col-xs-offset-1 ant-col-sm-18 ant-col-sm-offset-3 ant-col-md-20 ant-col-md-offset-2 ant-col-lg-22 ant-col-lg-offset-1 ant-col-xl-18 ant-col-xl-offset-3&quot;]/div[@class=&quot;ant-row-flex container&quot;]/div[@class=&quot;ant-col ant-col-xs-order-1 ant-col-sm-order-1 ant-col-md-12 ant-col-md-order-2 ant-col-lg-12 ant-col-lg-order-2 ant-col-xl-12 ant-col-xl-order-2&quot;]/div[@class=&quot;infograph rmform mt-30 article--oldhover widget-signup&quot;]/div[@class=&quot;infograph__caption&quot;]/button[@class=&quot;ant-btn ant-btn-primary ant-btn-round ant-btn-lg&quot;]</value>
+      <webElementGuid>b74591c2-9f0d-4bf9-8f2a-7ba074e82aec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>ca81632e-ca3d-46e6-a9bd-7570cefaadfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/button</value>
+      <webElementGuid>aa991634-a396-4d0d-bd66-472b4c8d6fa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi Mom, yuk buat akun Ruangmom!'])[1]/following::button[1]</value>
+      <webElementGuid>475ee235-de06-44a5-b642-b6beb52818b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='mendaftar'])[1]/following::button[1]</value>
+      <webElementGuid>3aa3925a-566d-4bc8-90c8-30a5dfe197f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button</value>
+      <webElementGuid>869f0eaf-5261-404f-8cee-d375dfc8a98d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Daftar menggunakan e-mail' or . = 'Daftar menggunakan e-mail')]</value>
+      <webElementGuid>8bb8872e-e84b-4084-95ac-6e4425270c9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

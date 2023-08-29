@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Action successful</name>
+   <tag></tag>
+   <elementGuidId>f7dc46a2-7346-4803-a012-460204f7ad60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#flash</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='flash']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9926b46b-5caa-4a06-87f2-9749fd642c19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>flash</value>
+      <webElementGuid>1bf2b668-2ba7-4e18-8ab5-fb1a438cc8bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flash notice</value>
+      <webElementGuid>71a4afe4-774d-46c0-b150-1205be630e73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Action successful
+            ×
+          </value>
+      <webElementGuid>c97656d4-1595-4745-99eb-1a0648d9ad0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;flash&quot;)</value>
+      <webElementGuid>2433e939-701a-4f9f-bb97-d4a3bf4dda87</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='flash']</value>
+      <webElementGuid>38ccc2d0-22c0-4227-bfa7-8c80a9129d42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='flash-messages']/div</value>
+      <webElementGuid>75403b26-2758-4eab-a8de-c35d65fecb57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notification Message'])[2]/preceding::div[1]</value>
+      <webElementGuid>3fbdd6f3-5335-4008-8eac-de56af50ee63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here'])[1]/preceding::div[1]</value>
+      <webElementGuid>88ad2250-9062-4f01-a1ec-034756246ce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Action successful']/parent::*</value>
+      <webElementGuid>55470e0b-fa3a-419c-a2f8-151a0b7aec61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>93c717af-6790-4f22-aae7-f07f1f1b690d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'flash' and (text() = '
+            Action successful
+            ×
+          ' or . = '
+            Action successful
+            ×
+          ')]</value>
+      <webElementGuid>0a653106-7183-4afa-8a23-6866a3b5ee16</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

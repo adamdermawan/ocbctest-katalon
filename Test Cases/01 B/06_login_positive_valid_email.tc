@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06_login_positive_valid_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c57e326-41d0-4e29-94f7-4359476438c2</testCaseGuid>
+</TestCaseEntity>

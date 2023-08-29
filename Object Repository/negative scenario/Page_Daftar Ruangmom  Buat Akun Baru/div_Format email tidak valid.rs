@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Format email tidak valid</name>
+   <tag></tag>
+   <elementGuidId>d4f707ae-5aeb-4cde-bf73-5bf2d3ece4c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/div/form/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-form-explain</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fcdc9c31-8866-41eb-8eb4-0d5cb606d3da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-form-explain</value>
+      <webElementGuid>05c6a873-5954-4cba-87ee-92a62051d4dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Format email tidak valid!</value>
+      <webElementGuid>33e5f10d-3eb7-458e-a92d-a70616d15314</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;ant-row mb-5&quot;]/div[@class=&quot;ant-col ant-col-xs-22 ant-col-xs-offset-1 ant-col-sm-18 ant-col-sm-offset-3 ant-col-md-20 ant-col-md-offset-2 ant-col-lg-22 ant-col-lg-offset-1 ant-col-xl-18 ant-col-xl-offset-3&quot;]/div[@class=&quot;ant-row-flex container&quot;]/div[@class=&quot;ant-col ant-col-xs-order-1 ant-col-sm-order-1 ant-col-md-12 ant-col-md-order-2 ant-col-lg-12 ant-col-lg-order-2 ant-col-xl-12 ant-col-xl-order-2&quot;]/div[@class=&quot;infograph rmform mt-30 article--oldhover widget-signup&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col pb-4 ant-col-md-20 ant-col-md-offset-2 ant-col-lg-20 ant-col-lg-offset-2 ant-col-xl-20 ant-col-xl-offset-2&quot;]/form[@class=&quot;ant-form ant-form-horizontal ant-form--custom&quot;]/div[@class=&quot;ant-row ant-form-item ant-form-item-with-help&quot;]/div[@class=&quot;ant-col ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control has-error&quot;]/div[@class=&quot;ant-form-explain&quot;]</value>
+      <webElementGuid>20e421b0-50d8-4692-875b-93d10d6ed669</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/div/form/div/div[2]/div/div</value>
+      <webElementGuid>23cce826-a479-4071-9f93-2c6a591ec5a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-mail'])[1]/following::div[3]</value>
+      <webElementGuid>d4e44b5c-1002-4876-845e-05121ca2e7c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar menggunakan e-mail'])[1]/following::div[7]</value>
+      <webElementGuid>06a87a8a-edd0-4334-b526-de0ec5176a40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kata Sandi'])[1]/preceding::div[1]</value>
+      <webElementGuid>d2e3bd05-6040-4aa0-bf51-61d4cb8cf778</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ulangi Kata Sandi'])[1]/preceding::div[5]</value>
+      <webElementGuid>646f410c-bcee-4cab-9102-dba8bf18fcbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Format email tidak valid!']/parent::*</value>
+      <webElementGuid>4cb1509e-69f0-4bc8-938e-a1f6610467d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div/div</value>
+      <webElementGuid>172f4ceb-2a1c-408f-bdb2-0c6ffab6135f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Format email tidak valid!' or . = 'Format email tidak valid!')]</value>
+      <webElementGuid>1640240e-137c-4d4a-9d8d-c0a30a1da376</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

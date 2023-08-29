@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1A" time="114.288" tests="10" failures="2" errors="1">
+   <testsuite name="1A" tests="10" failures="2" errors="1" time="114.288" skipped="0" timestamp="2023-08-24 23:26:39" hostname="Adam - HP-OMEN-ADAM" id="Test Suites/1/1A">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630"/>
+         <property name="logFiles" value="C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630\\1692894442256.png, C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630\\1692894470102.png, C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630\\1692894496549.png"/>
+         <property name="hostName" value="Adam - HP-OMEN-ADAM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.144"/>
+         <property name="sessionId" value="2da4d1eb3271a2758ae72153863c1531"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/01 A/01_Basic_Auth" time="9.947" classname="Test Cases/01 A/01_Basic_Auth" status="PASSED">
+         <system-out><![CDATA[2023-08-24 23:26:39 - [TEST_CASE][PASSED] - Test Cases/01 A/01_Basic_Auth: Test Cases/01 A/01_Basic_Auth
+
+2023-08-24 23:26:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:26:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:26:40 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:26:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:26:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:26:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:26:42 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:26:42 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:26:45 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:26:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_Basic Auth")): Object: 'Object Repository/Page_The Internet/a_Basic Auth' is clicked on
+
+2023-08-24 23:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_Basic Auth' is clicked on
+
+2023-08-24 23:26:45 - [TEST_STEP][PASSED] - authenticate("https://the-internet.herokuapp.com/basic_auth", "admin", "admin", 10): Authentication with username 'admin' and password '{2}' successfully
+
+2023-08-24 23:26:46 - [MESSAGE][PASSED] - Authentication with username 'admin' and password '{2}' successfully
+
+2023-08-24 23:26:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-24 23:26:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-24 23:26:48 - [TEST_STEP][PASSED] - verifyTextPresent("Basic Auth", true): Text 'Basic Auth' is present on page  using regular expression
+
+2023-08-24 23:26:48 - [MESSAGE][PASSED] - Text 'Basic Auth' is present on page  using regular expression
+
+2023-08-24 23:26:48 - [TEST_STEP][PASSED] - verifyTextPresent("Congratulations! You must have the proper credentials.", true): Text 'Congratulations! You must have the proper credentials.' is present on page  using regular expression
+
+2023-08-24 23:26:49 - [MESSAGE][PASSED] - Text 'Congratulations! You must have the proper credentials.' is present on page  using regular expression
+
+2023-08-24 23:26:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 23:26:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/02_AB_Testing" time="32.704" classname="Test Cases/01 A/02_AB_Testing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01 A/02_AB_Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 02_AB_Testing.run(02_AB_Testing:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_The Internet/a_AB Testing' located by '//div[@id='content']/ul/li/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-24 23:26:49 - [TEST_CASE][FAILED] - Test Cases/01 A/02_AB_Testing: Test Cases/01 A/02_AB_Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 02_AB_Testing.run(02_AB_Testing:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_The Internet/a_AB Testing' located by '//div[@id='content']/ul/li/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-24 23:26:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:26:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:26:49 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:26:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:26:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:26:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:26:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:26:51 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_The Internet/a_AB Testing")): Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 02_AB_Testing.run(02_AB_Testing:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_The Internet/a_AB Testing' located by '//div[@id='content']/ul/li/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1692849491937.run(Script1692849491937.groovy:23)
+	... 13 more
+)
+
+2023-08-24 23:27:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='content']/ul/li/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-24 23:27:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 02_AB_Testing.run(02_AB_Testing:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_The Internet/a_AB Testing' located by '//div[@id='content']/ul/li/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1692849491937.run(Script1692849491937.groovy:23)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630\\1692894442256.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-24 23:26:49 - [TEST_CASE][FAILED] - Test Cases/01 A/02_AB_Testing: Test Cases/01 A/02_AB_Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 02_AB_Testing.run(02_AB_Testing:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_The Internet/a_AB Testing' located by '//div[@id='content']/ul/li/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/03_BrokenImages" time="6.523" classname="Test Cases/01 A/03_BrokenImages" status="ERROR">
+         <error type="ERROR" message="Test Cases/01 A/03_BrokenImages FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent() is applicable for argument types: (java.lang.String) values: [Object Repository/Page_The Internet/img]
+Possible solutions: verifyImagePresent(com.kms.katalon.core.testobject.TestObject), verifyImagePresent(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at 03_BrokenImages.run(03_BrokenImages:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-24 23:27:22 - [TEST_CASE][ERROR] - Test Cases/01 A/03_BrokenImages: Test Cases/01 A/03_BrokenImages FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent() is applicable for argument types: (java.lang.String) values: [Object Repository/Page_The Internet/img]
+Possible solutions: verifyImagePresent(com.kms.katalon.core.testobject.TestObject), verifyImagePresent(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at 03_BrokenImages.run(03_BrokenImages:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+
+
+2023-08-24 23:27:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:27:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-24 23:27:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:27:23 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:27:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:27:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:27:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:27:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:27:24 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:27 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_Broken Images")): Object: 'Object Repository/Page_The Internet/a_Broken Images' is clicked on
+
+2023-08-24 23:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_Broken Images' is clicked on
+
+2023-08-24 23:27:28 - [TEST_STEP][PASSED] - image = "Object Repository/Page_The Internet/img": null
+
+2023-08-24 23:27:28 - [TEST_STEP][ERROR] - verifyImagePresent(image): Test Cases/01 A/03_BrokenImages FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent() is applicable for argument types: (java.lang.String) values: [Object Repository/Page_The Internet/img]
+Possible solutions: verifyImagePresent(com.kms.katalon.core.testobject.TestObject), verifyImagePresent(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at 03_BrokenImages.run(03_BrokenImages:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+
+
+2023-08-24 23:27:28 - [MESSAGE][ERROR] - Test Cases/01 A/03_BrokenImages FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent() is applicable for argument types: (java.lang.String) values: [Object Repository/Page_The Internet/img]
+Possible solutions: verifyImagePresent(com.kms.katalon.core.testobject.TestObject), verifyImagePresent(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at 03_BrokenImages.run(03_BrokenImages:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-08-24 23:27:22 - [TEST_CASE][ERROR] - Test Cases/01 A/03_BrokenImages: Test Cases/01 A/03_BrokenImages FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent() is applicable for argument types: (java.lang.String) values: [Object Repository/Page_The Internet/img]
+Possible solutions: verifyImagePresent(com.kms.katalon.core.testobject.TestObject), verifyImagePresent(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at 03_BrokenImages.run(03_BrokenImages:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/04_Checkbox" time="7.772" classname="Test Cases/01 A/04_Checkbox" status="PASSED">
+         <system-out><![CDATA[2023-08-24 23:27:28 - [TEST_CASE][PASSED] - Test Cases/01 A/04_Checkbox: Test Cases/01 A/04_Checkbox
+
+2023-08-24 23:27:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:27:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-24 23:27:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:27:29 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:27:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:27:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:27:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:27:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:27:31 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:34 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_Checkboxes")): Object: 'Object Repository/Page_The Internet/a_Checkboxes' is clicked on
+
+2023-08-24 23:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_Checkboxes' is clicked on
+
+2023-08-24 23:27:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/input_checkbox1")): Object: 'Object Repository/Page_The Internet/input_checkbox1' is clicked on
+
+2023-08-24 23:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/input_checkbox1' is clicked on
+
+2023-08-24 23:27:35 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/Page_The Internet/input_checkbox1"), 10): Object 'Object Repository/Page_The Internet/input_checkbox1' is checked
+
+2023-08-24 23:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Internet/input_checkbox1' is checked
+
+2023-08-24 23:27:35 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Object Repository/Page_The Internet/input_checkbox2"), 10): Object 'Object Repository/Page_The Internet/input_checkbox2' is checked
+
+2023-08-24 23:27:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Internet/input_checkbox2' is checked
+
+2023-08-24 23:27:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 23:27:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/05_drag_and_drop" time="14.635" classname="Test Cases/01 A/05_drag_and_drop" status="PASSED">
+         <system-out><![CDATA[2023-08-24 23:27:36 - [TEST_CASE][PASSED] - Test Cases/01 A/05_drag_and_drop: Test Cases/01 A/05_drag_and_drop
+
+2023-08-24 23:27:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:27:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:27:36 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:27:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:27:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:27:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:27:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:27:38 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:41 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Drag_And_Drop/a_Drag and Drop")): Object: 'Object Repository/Drag_And_Drop/a_Drag and Drop' is clicked on
+
+2023-08-24 23:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Drag_And_Drop/a_Drag and Drop' is clicked on
+
+2023-08-24 23:27:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-24 23:27:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-24 23:27:45 - [TEST_STEP][PASSED] - ObjectA = "Object Repository/Drag_And_Drop/div_A": null
+
+2023-08-24 23:27:45 - [TEST_STEP][PASSED] - ObjectB = "Object Repository/Drag_And_Drop/div_B": null
+
+2023-08-24 23:27:45 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject(ObjectB), findTestObject(ObjectA)): Dragged object with id 'Object Repository/Drag_And_Drop/div_B' to object with id 'TestObject - 'Object Repository/Drag_And_Drop/div_A'' successfully
+
+2023-08-24 23:27:48 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Drag_And_Drop/div_B' to object with id 'TestObject - 'Object Repository/Drag_And_Drop/div_A'' successfully
+
+2023-08-24 23:27:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-24 23:27:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-24 23:27:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-24 23:27:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-24 23:27:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630\\1692894470102.png]]
+
+2023-08-24 23:27:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 23:27:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/06_drop_down" time="7.073" classname="Test Cases/01 A/06_drop_down" status="PASSED">
+         <system-out><![CDATA[2023-08-24 23:27:51 - [TEST_CASE][PASSED] - Test Cases/01 A/06_drop_down: Test Cases/01 A/06_drop_down
+
+2023-08-24 23:27:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:27:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:27:51 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:27:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:27:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:27:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:27:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:27:52 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:56 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dropdown/Page_The Internet/a_Dropdown")): Object: 'Object Repository/dropdown/Page_The Internet/a_Dropdown' is clicked on
+
+2023-08-24 23:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/dropdown/Page_The Internet/a_Dropdown' is clicked on
+
+2023-08-24 23:27:56 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/dropdown/Page_The Internet/select_dropdown"), 1): All options with index in [1] are selected on object 'Object Repository/dropdown/Page_The Internet/select_dropdown'
+
+2023-08-24 23:27:57 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/dropdown/Page_The Internet/select_dropdown'
+
+2023-08-24 23:27:57 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2023-08-24 23:27:57 - [MESSAGE][PASSED] - Navigate back successfully
+
+2023-08-24 23:27:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 23:27:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/07_filedownload" time="11.848" classname="Test Cases/01 A/07_filedownload" status="PASSED">
+         <system-out><![CDATA[2023-08-24 23:27:58 - [TEST_CASE][PASSED] - Test Cases/01 A/07_filedownload: Test Cases/01 A/07_filedownload
+
+2023-08-24 23:27:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:27:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:27:58 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:27:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:27:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:27:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:27:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:27:59 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:03 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_File Download")): Object: 'Object Repository/Page_The Internet/a_File Download' is clicked on
+
+2023-08-24 23:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_File Download' is clicked on
+
+2023-08-24 23:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_sample-zip-file.zip")): Object: 'Object Repository/Page_The Internet/a_sample-zip-file.zip' is clicked on
+
+2023-08-24 23:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_sample-zip-file.zip' is clicked on
+
+2023-08-24 23:28:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-24 23:28:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-24 23:28:09 - [TEST_STEP][PASSED] - filename = new java.io.File(C:\Users\adamd\Downloads\sample-zip-file.zip): null
+
+2023-08-24 23:28:09 - [TEST_STEP][PASSED] - filename.delete(): null
+
+2023-08-24 23:28:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 23:28:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/08_fileupload" time="6.424" classname="Test Cases/01 A/08_fileupload" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01 A/08_fileupload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg' to object 'Object Repository/upload/Page_The Internet/input_File Uploader_file'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$11.call(Unknown Source)
+	at 08_fileupload.run(08_fileupload:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23a82f19513c16eb72ea5caaa6e1be37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-24 23:28:10 - [TEST_CASE][FAILED] - Test Cases/01 A/08_fileupload: Test Cases/01 A/08_fileupload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg' to object 'Object Repository/upload/Page_The Internet/input_File Uploader_file'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$11.call(Unknown Source)
+	at 08_fileupload.run(08_fileupload:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23a82f19513c16eb72ea5caaa6e1be37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-24 23:28:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:28:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:28:10 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:28:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:28:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:28:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:28:11 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:28:11 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:15 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/upload/Page_The Internet/a_File Upload")): Object: 'Object Repository/upload/Page_The Internet/a_File Upload' is clicked on
+
+2023-08-24 23:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/upload/Page_The Internet/a_File Upload' is clicked on
+
+2023-08-24 23:28:16 - [TEST_STEP][PASSED] - path = "C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg": null
+
+2023-08-24 23:28:16 - [TEST_STEP][FAILED] - uploadFile(findTestObject("Object Repository/upload/Page_The Internet/input_File Uploader_file"), path): Unable to upload file 'C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg' to object 'Object Repository/upload/Page_The Internet/input_File Uploader_file' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg' to object 'Object Repository/upload/Page_The Internet/input_File Uploader_file'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$11.call(Unknown Source)
+	at 08_fileupload.run(08_fileupload:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23a82f19513c16eb72ea5caaa6e1be37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$11.call(Unknown Source)
+	at Script1692856622070.run(Script1692856622070.groovy:32)
+	... 13 more
+)
+
+2023-08-24 23:28:16 - [MESSAGE][FAILED] - Unable to upload file 'C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg' to object 'Object Repository/upload/Page_The Internet/input_File Uploader_file' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg' to object 'Object Repository/upload/Page_The Internet/input_File Uploader_file'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$11.call(Unknown Source)
+	at 08_fileupload.run(08_fileupload:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23a82f19513c16eb72ea5caaa6e1be37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$11.call(Unknown Source)
+	at Script1692856622070.run(Script1692856622070.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_232630\\1\\1A\\20230824_232630\\1692894496549.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-24 23:28:10 - [TEST_CASE][FAILED] - Test Cases/01 A/08_fileupload: Test Cases/01 A/08_fileupload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg' to object 'Object Repository/upload/Page_The Internet/input_File Uploader_file'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$11.call(Unknown Source)
+	at 08_fileupload.run(08_fileupload:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Adam\Katalon Studio\Test\Uploads\unnamed.jpg
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23a82f19513c16eb72ea5caaa6e1be37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/09_ForgotPassword" time="8.337" classname="Test Cases/01 A/09_ForgotPassword" status="PASSED">
+         <system-out><![CDATA[2023-08-24 23:28:16 - [TEST_CASE][PASSED] - Test Cases/01 A/09_ForgotPassword: Test Cases/01 A/09_ForgotPassword
+
+2023-08-24 23:28:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:28:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-24 23:28:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:28:17 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:28:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:28:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:28:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:28:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:28:18 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:21 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/forgot password/Page_The Internet/a_Forgot Password")): Object: 'Object Repository/Page_The Internet/forgot password/Page_The Internet/a_Forgot Password' is clicked on
+
+2023-08-24 23:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/forgot password/Page_The Internet/a_Forgot Password' is clicked on
+
+2023-08-24 23:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email")): Object: 'Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email' is clicked on
+
+2023-08-24 23:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email' is clicked on
+
+2023-08-24 23:28:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email"), "ayuadisti1998@gmail.com"): Text 'ayuadisti1998@gmail.com' is set on object 'Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email'
+
+2023-08-24 23:28:23 - [MESSAGE][PASSED] - Text 'ayuadisti1998@gmail.com' is set on object 'Object Repository/Page_The Internet/forgot password/Page_The Internet/input_E-mail_email'
+
+2023-08-24 23:28:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/forgot password/Page_The Internet/button_Retrieve password")): Object: 'Object Repository/Page_The Internet/forgot password/Page_The Internet/button_Retrieve password' is clicked on
+
+2023-08-24 23:28:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/forgot password/Page_The Internet/button_Retrieve password' is clicked on
+
+2023-08-24 23:28:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 23:28:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 A/10_NotificationMessages" time="8.765" classname="Test Cases/01 A/10_NotificationMessages" status="PASSED">
+         <system-out><![CDATA[2023-08-24 23:28:25 - [TEST_CASE][PASSED] - Test Cases/01 A/10_NotificationMessages: Test Cases/01 A/10_NotificationMessages
+
+2023-08-24 23:28:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 23:28:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 23:28:25 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 23:28:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 23:28:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 23:28:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 23:28:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 23:28:26 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:29 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-08-24 23:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_Notification Messages")): Object: 'Object Repository/Page_The Internet/a_Notification Messages' is clicked on
+
+2023-08-24 23:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_Notification Messages' is clicked on
+
+2023-08-24 23:28:30 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-08-24 23:28:30 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-24 23:28:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_Click here")): Object: 'Object Repository/Page_The Internet/a_Click here' is clicked on
+
+2023-08-24 23:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_Click here' is clicked on
+
+2023-08-24 23:28:31 - [TEST_STEP][PASSED] - try: Text 'Action successful' is present on page  using regular expression
+
+2023-08-24 23:28:31 - [TEST_STEP][PASSED] - verifyTextPresent("Action successful", true): Text 'Action successful' is present on page  using regular expression
+
+2023-08-24 23:28:32 - [MESSAGE][PASSED] - Text 'Action successful' is present on page  using regular expression
+
+2023-08-24 23:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_Click here")): Object: 'Object Repository/Page_The Internet/a_Click here' is clicked on
+
+2023-08-24 23:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_Click here' is clicked on
+
+2023-08-24 23:28:32 - [TEST_STEP][PASSED] - try: Text 'Action successful' is present on page  using regular expression
+
+2023-08-24 23:28:32 - [TEST_STEP][PASSED] - verifyTextPresent("Action successful", true): Text 'Action successful' is present on page  using regular expression
+
+2023-08-24 23:28:33 - [MESSAGE][PASSED] - Text 'Action successful' is present on page  using regular expression
+
+2023-08-24 23:28:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 23:28:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-24 23:26:39 - [TEST_SUITE][FAILED] - 1A: Test Cases/01 A/02_AB_Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 02_AB_Testing.run(02_AB_Testing:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_The Internet/a_AB Testing' located by '//div[@id='content']/ul/li/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-24 23:26:39 - [TEST_SUITE][FAILED] - 1A: Test Cases/01 A/02_AB_Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_The Internet/a_AB Testing'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 02_AB_Testing.run(02_AB_Testing:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692894390895.run(TempTestSuite1692894390895.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_The Internet/a_AB Testing' located by '//div[@id='content']/ul/li/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

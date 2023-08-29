@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lain kali</name>
+   <tag></tag>
+   <elementGuidId>8b767b48-1243-4105-85d7-d443a798614d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#onesignal-slidedown-cancel-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='onesignal-slidedown-cancel-button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>16802bdb-9c9a-4cf7-8f57-f716616a00ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-right secondary slidedown-button</value>
+      <webElementGuid>f6affdfe-9220-4a14-aaaf-7652437bec02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>onesignal-slidedown-cancel-button</value>
+      <webElementGuid>6c7ae306-5d54-4fd2-8bb9-16383e504a4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lain kali</value>
+      <webElementGuid>3ac18900-5cf8-4a2c-bb07-f23ffa0a66d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;onesignal-slidedown-cancel-button&quot;)</value>
+      <webElementGuid>6b1268a2-340a-4cd8-bbe6-03c0aa73e54d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='onesignal-slidedown-cancel-button']</value>
+      <webElementGuid>a3989513-9c59-4efe-9b90-11502da1d75a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='slidedown-footer']/button[2]</value>
+      <webElementGuid>49290904-cd60-42a1-bcba-00ae7d0f1db2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aktifkan'])[1]/following::button[1]</value>
+      <webElementGuid>4d3dffb1-b630-4319-82e6-050ff5f0cb73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingin mendapatkan informasi terbaru dari Ruangmom?Aktifkan notifikasi sekarang.'])[1]/following::button[2]</value>
+      <webElementGuid>e9955810-646a-4601-b8a6-79c06a9914fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lain kali']/parent::*</value>
+      <webElementGuid>d045e1b3-f31e-46e6-9b6c-641fe053dd7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/button[2]</value>
+      <webElementGuid>82f7fafd-a8c5-4416-bb66-e40488a2cb20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'onesignal-slidedown-cancel-button' and (text() = 'Lain kali' or . = 'Lain kali')]</value>
+      <webElementGuid>9fe32c94-7391-4a3b-933a-2c97d1913461</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Lupa kata sandi</name>
+   <tag></tag>
+   <elementGuidId>3c77041c-fd86-4ff0-877a-4b613e155ba0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/form/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-danger.my-3.lupa-sandi.font-weight-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>691989a1-9a1e-4b45-a4d2-7a5212c8b827</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger my-3 lupa-sandi font-weight-bold</value>
+      <webElementGuid>03bf58f1-dc34-4de7-9c83-df62e9c2dc5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/forgot-password</value>
+      <webElementGuid>3635d6a9-5179-420e-a729-b87089ea90cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lupa kata sandi?</value>
+      <webElementGuid>213fed80-2587-4bbd-ab99-11aae37e85ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;mt-30 pb-5 rmform infograph article article--oldhover&quot;]/div[@class=&quot;ant-row px-3&quot;]/div[@class=&quot;ant-col ant-col-md-10 ant-col-md-offset-6 ant-col-lg-10 ant-col-lg-offset-6 ant-col-xl-6 ant-col-xl-offset-9&quot;]/form[@class=&quot;ant-form ant-form-horizontal&quot;]/p[1]/a[@class=&quot;text-danger my-3 lupa-sandi font-weight-bold&quot;]</value>
+      <webElementGuid>26d922ca-3477-4ff4-9b00-948ba858148e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/form/p/a</value>
+      <webElementGuid>4745157f-d463-40cd-b831-8163483a3730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Lupa kata sandi?')]</value>
+      <webElementGuid>026befcf-9624-465d-a334-05bfd881f445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kata Sandi'])[1]/following::a[1]</value>
+      <webElementGuid>dd3fdab9-90dd-435e-ab9e-9900fec278dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-mail Mom'])[1]/following::a[1]</value>
+      <webElementGuid>3ad73024-712f-4df4-bf79-c364103d8bd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingatkan saya di website Ruangmom'])[1]/preceding::a[1]</value>
+      <webElementGuid>5358744f-c4a6-4148-9391-96abadf7ffc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::a[1]</value>
+      <webElementGuid>fb0b7e01-bf6d-427c-b166-61847f37aa21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lupa kata sandi?']/parent::*</value>
+      <webElementGuid>5e6ab1d4-704d-4633-bfdc-3bb5157ae583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/forgot-password')]</value>
+      <webElementGuid>c4ae74b0-521b-403c-afe8-8e6f3801b9c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>8a3ef356-3e25-4daa-a4c5-4c15f9bef5c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/forgot-password' and (text() = 'Lupa kata sandi?' or . = 'Lupa kata sandi?')]</value>
+      <webElementGuid>7d3d7678-5d55-4e11-bee4-7b3ff1b370df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,146 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1B,Chrome 116.0.0.0,,,2023-08-24 21:31:51,2023-08-24 21:36:07,4m - 15.365s,FAILED
+,,,,,,,
+Test Cases/01 B/01_register_email_positive_email,Chrome 116.0.0.0,,,2023-08-24 21:31:51,2023-08-24 21:32:20,28.341s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:31:52,2023-08-24 21:31:54,1.909s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:31:54,2023-08-24 21:31:54,0.139s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:31:54,2023-08-24 21:31:56,2.537s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:31:56,2023-08-24 21:32:06,10.019s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:32:06,2023-08-24 21:32:07,0.712s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:32:07,2023-08-24 21:32:08,0.876s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail""))",Chrome 116.0.0.0,,,2023-08-24 21:32:08,2023-08-24 21:32:09,0.677s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""))",Chrome 116.0.0.0,,,2023-08-24 21:32:09,2023-08-24 21:32:09,0.559s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""), ""ayuadis123@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 21:32:09,2023-08-24 21:32:10,0.725s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password""), ""Ayu123"")",Chrome 116.0.0.0,,,2023-08-24 21:32:10,2023-08-24 21:32:11,1.093s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass""), ""Ayu123"")",Chrome 116.0.0.0,,,2023-08-24 21:32:11,2023-08-24 21:32:12,1.210s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name""), ""Bunda"")",Chrome 116.0.0.0,,,2023-08-24 21:32:12,2023-08-24 21:32:13,1.124s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input""))",Chrome 116.0.0.0,,,2023-08-24 21:32:13,2023-08-24 21:32:14,0.463s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar""))",Chrome 116.0.0.0,,,2023-08-24 21:32:14,2023-08-24 21:32:14,0.350s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-24 21:32:14,2023-08-24 21:32:19,5.019s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:32:19,2023-08-24 21:32:20,0.665s,PASSED
+,,,,,,,
+Test Cases/01 B/02_register_email_negative_email_scenario,Chrome 116.0.0.0,,,2023-08-24 21:32:20,2023-08-24 21:32:33,12.999s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:32:20,2023-08-24 21:32:21,1.073s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:32:21,2023-08-24 21:32:21,0.139s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:32:21,2023-08-24 21:32:23,2.221s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-24 21:32:23,2023-08-24 21:32:28,5.014s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:32:28,2023-08-24 21:32:29,0.653s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:32:29,2023-08-24 21:32:30,0.898s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail""))",Chrome 116.0.0.0,,,2023-08-24 21:32:30,2023-08-24 21:32:31,0.568s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""))",Chrome 116.0.0.0,,,2023-08-24 21:32:31,2023-08-24 21:32:31,0.568s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""), ""adis"")",Chrome 116.0.0.0,,,2023-08-24 21:32:31,2023-08-24 21:32:32,0.648s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Format email tidak valid""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:32:32,2023-08-24 21:32:32,0.416s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:32:32,2023-08-24 21:32:33,0.613s,PASSED
+,,,,,,,
+Test Cases/01 B/03_register_email_negative_duplicate_email,Chrome 116.0.0.0,,,2023-08-24 21:32:33,2023-08-24 21:32:50,16.844s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:32:33,2023-08-24 21:32:34,1.136s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:32:34,2023-08-24 21:32:34,0.125s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:32:34,2023-08-24 21:32:36,1.372s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-24 21:32:36,2023-08-24 21:32:41,5.010s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:32:41,2023-08-24 21:32:41,0.647s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:32:41,2023-08-24 21:32:42,0.877s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail""))",Chrome 116.0.0.0,,,2023-08-24 21:32:42,2023-08-24 21:32:43,0.557s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""))",Chrome 116.0.0.0,,,2023-08-24 21:32:43,2023-08-24 21:32:43,0.556s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""), ""alex@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 21:32:43,2023-08-24 21:32:44,0.693s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password""), ""Ayu123"")",Chrome 116.0.0.0,,,2023-08-24 21:32:44,2023-08-24 21:32:45,1.091s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass""), ""Ayu123"")",Chrome 116.0.0.0,,,2023-08-24 21:32:45,2023-08-24 21:32:46,1.199s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name""), ""Bunda"")",Chrome 116.0.0.0,,,2023-08-24 21:32:46,2023-08-24 21:32:47,1.194s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input""))",Chrome 116.0.0.0,,,2023-08-24 21:32:47,2023-08-24 21:32:48,0.451s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar""))",Chrome 116.0.0.0,,,2023-08-24 21:32:48,2023-08-24 21:32:48,0.347s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_E-mail sudah terdaftar, silahkan coba dengan alamat e-mail lain ya Mom vyt""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:32:48,2023-08-24 21:32:49,0.745s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:32:49,2023-08-24 21:32:50,0.618s,PASSED
+,,,,,,,
+Test Cases/01 B/05_register_email_negative_pass_different,Chrome 116.0.0.0,,,2023-08-24 21:32:50,2023-08-24 21:33:12,21.913s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:32:50,2023-08-24 21:32:51,1.073s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:32:51,2023-08-24 21:32:51,0.127s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:32:51,2023-08-24 21:32:55,3.704s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:32:55,2023-08-24 21:33:05,10.011s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:33:05,2023-08-24 21:33:05,0.665s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:33:05,2023-08-24 21:33:06,0.876s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail""))",Chrome 116.0.0.0,,,2023-08-24 21:33:06,2023-08-24 21:33:07,0.691s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""))",Chrome 116.0.0.0,,,2023-08-24 21:33:07,2023-08-24 21:33:08,0.561s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""), ""alex@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 21:33:08,2023-08-24 21:33:08,0.690s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password""), ""Ayu123"")",Chrome 116.0.0.0,,,2023-08-24 21:33:08,2023-08-24 21:33:09,1.081s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass""), ""Ayu123456"")",Chrome 116.0.0.0,,,2023-08-24 21:33:09,2023-08-24 21:33:11,1.206s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Konfirmasi kata sandi tidak sesuai""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:33:11,2023-08-24 21:33:11,0.416s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:33:11,2023-08-24 21:33:12,0.631s,PASSED
+,,,,,,,
+Test Cases/01 B/04_register_email_negative_invalid_pass,Chrome 116.0.0.0,,,2023-08-24 21:33:12,2023-08-24 21:33:31,19.487s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:33:12,2023-08-24 21:33:13,1.061s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:33:13,2023-08-24 21:33:13,0.126s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:33:13,2023-08-24 21:33:15,2.440s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:33:15,2023-08-24 21:33:25,10.011s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:33:25,2023-08-24 21:33:26,0.651s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:33:26,2023-08-24 21:33:27,0.878s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail""))",Chrome 116.0.0.0,,,2023-08-24 21:33:27,2023-08-24 21:33:28,0.680s,PASSED
+"click(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""))",Chrome 116.0.0.0,,,2023-08-24 21:33:28,2023-08-24 21:33:28,0.559s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email""), ""ayu@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 21:33:28,2023-08-24 21:33:29,0.686s,PASSED
+"setText(findTestObject(""Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password""), ""Ayu123."")",Chrome 116.0.0.0,,,2023-08-24 21:33:29,2023-08-24 21:33:30,1.186s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_6-30 karakter, kombinasi huruf dan angka, spesial karakter tidak diperkenankan""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:33:30,2023-08-24 21:33:30,0.404s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:33:30,2023-08-24 21:33:31,0.624s,PASSED
+,,,,,,,
+Test Cases/01 B/06_login_positive_valid_email,Chrome 116.0.0.0,,,2023-08-24 21:33:31,2023-08-24 21:34:00,28.675s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:33:31,2023-08-24 21:33:32,1.122s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:33:32,2023-08-24 21:33:33,0.126s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:33:33,2023-08-24 21:33:34,1.195s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:33:34,2023-08-24 21:33:44,10.006s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:33:44,2023-08-24 21:33:44,0.668s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:33:44,2023-08-24 21:33:45,0.871s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:33:45,2023-08-24 21:33:55,10.014s,PASSED
+"setText(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email""), ""yeni@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 21:33:55,2023-08-24 21:33:56,0.686s,PASSED
+"setText(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password""), ""Ayu123"")",Chrome 116.0.0.0,,,2023-08-24 21:33:56,2023-08-24 21:33:57,1.196s,PASSED
+"click(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme""))",Chrome 116.0.0.0,,,2023-08-24 21:33:57,2023-08-24 21:33:58,0.450s,PASSED
+"click(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk""))",Chrome 116.0.0.0,,,2023-08-24 21:33:58,2023-08-24 21:33:58,0.345s,PASSED
+"verifyElementPresent(findTestObject(""mom_login/Page_Masuk ke Akun/div_Verifikasi e-mail mom""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:33:58,2023-08-24 21:33:59,1.171s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:33:59,2023-08-24 21:34:00,0.626s,PASSED
+,,,,,,,
+Test Cases/01 B/07_login_negative_invalid_email,Chrome 116.0.0.0,,,2023-08-24 21:34:00,2023-08-24 21:34:39,39.160s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:34:00,2023-08-24 21:34:01,1.078s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:34:01,2023-08-24 21:34:01,0.127s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:34:01,2023-08-24 21:34:13,11.781s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:34:13,2023-08-24 21:34:23,10.007s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:34:23,2023-08-24 21:34:24,0.666s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:34:24,2023-08-24 21:34:25,0.880s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:34:25,2023-08-24 21:34:35,10.006s,PASSED
+"setText(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email""), ""yeni@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 21:34:35,2023-08-24 21:34:35,0.698s,PASSED
+"setText(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password""), ""Ayu1234"")",Chrome 116.0.0.0,,,2023-08-24 21:34:35,2023-08-24 21:34:36,1.095s,PASSED
+"click(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme""))",Chrome 116.0.0.0,,,2023-08-24 21:34:36,2023-08-24 21:34:37,0.450s,PASSED
+"click(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk""))",Chrome 116.0.0.0,,,2023-08-24 21:34:37,2023-08-24 21:34:37,0.349s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/mom_login/Page_Masuk ke Akun/div_Data login yang anda masukkan salah""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:34:37,2023-08-24 21:34:38,1.167s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:34:38,2023-08-24 21:34:39,0.629s,PASSED
+,,,,,,,
+Test Cases/01 B/08_forgot_pass_positive,Chrome 116.0.0.0,,,2023-08-24 21:34:39,2023-08-24 21:34:58,19.172s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:34:39,2023-08-24 21:34:40,1.073s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:34:40,2023-08-24 21:34:40,0.124s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:34:40,2023-08-24 21:34:42,2.014s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:34:42,2023-08-24 21:34:52,10.012s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:34:52,2023-08-24 21:34:53,0.668s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:34:53,2023-08-24 21:34:54,0.976s,PASSED
+"click(findTestObject(""Object Repository/forgot_password/Page_Masuk ke Akun/a_Lupa kata sandi""))",Chrome 116.0.0.0,,,2023-08-24 21:34:54,2023-08-24 21:34:55,0.567s,PASSED
+"setText(findTestObject(""Object Repository/forgot_password/Page_Lupa Password  Ruangmom/input_E-mail_form_forgot_password_email""), ""ayuadisti1998@gmail.com"")",Chrome 116.0.0.0,,,2023-08-24 21:34:55,2023-08-24 21:34:55,0.892s,PASSED
+"click(findTestObject(""Object Repository/forgot_password/Page_Lupa Password  Ruangmom/button_Ganti kata sandi baru""))",Chrome 116.0.0.0,,,2023-08-24 21:34:55,2023-08-24 21:34:56,0.467s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/forgot_password/Page_Lupa Password  Ruangmom/h1_E-mail penggantian kata sandi sudah terkirim""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:34:56,2023-08-24 21:34:57,1.565s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:34:57,2023-08-24 21:34:58,0.626s,PASSED
+,,,,,,,
+Test Cases/01 B/09_search_positive,Chrome 116.0.0.0,,,2023-08-24 21:34:58,2023-08-24 21:35:16,18.080s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:34:58,2023-08-24 21:34:59,1.076s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:34:59,2023-08-24 21:34:59,0.127s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:34:59,2023-08-24 21:35:01,1.280s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:35:01,2023-08-24 21:35:11,10.008s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:35:11,2023-08-24 21:35:11,0.663s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:35:11,2023-08-24 21:35:12,0.972s,PASSED
+"click(findTestObject(""Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan""))",Chrome 116.0.0.0,,,2023-08-24 21:35:12,2023-08-24 21:35:13,0.333s,PASSED
+"setText(findTestObject(""Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput""), ""Cherry"")",Chrome 116.0.0.0,,,2023-08-24 21:35:13,2023-08-24 21:35:14,1.502s,PASSED
+"sendKeys(findTestObject(""Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput""), Keys.chord(ENTER))",Chrome 116.0.0.0,,,2023-08-24 21:35:14,2023-08-24 21:35:15,0.354s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/mom_search/Page_Cherry/a_Cherry Mom n Baby Spa""), 0)",Chrome 116.0.0.0,,,2023-08-24 21:35:15,2023-08-24 21:35:16,0.960s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-24 21:35:16,2023-08-24 21:35:16,0.623s,PASSED
+,,,,,,,
+Test Cases/01 B/10_search_negative_jaksel,Chrome 116.0.0.0,,,2023-08-24 21:35:16,2023-08-24 21:36:07,50.482s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-24 21:35:16,2023-08-24 21:35:17,1.119s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-24 21:35:17,2023-08-24 21:35:18,0.127s,PASSED
+"navigateToUrl(""https://www.ruangmom.com/"")",Chrome 116.0.0.0,,,2023-08-24 21:35:18,2023-08-24 21:35:21,3.485s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-24 21:35:21,2023-08-24 21:35:31,10.008s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:35:31,2023-08-24 21:35:32,0.669s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2""), 20))",Chrome 116.0.0.0,,,2023-08-24 21:35:32,2023-08-24 21:35:33,0.881s,PASSED
+"click(findTestObject(""Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan""))",Chrome 116.0.0.0,,,2023-08-24 21:35:33,2023-08-24 21:35:33,0.350s,PASSED
+"click(findTestObject(""Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan""))",Chrome 116.0.0.0,,,2023-08-24 21:35:33,2023-08-24 21:36:07,33.651s,FAILED

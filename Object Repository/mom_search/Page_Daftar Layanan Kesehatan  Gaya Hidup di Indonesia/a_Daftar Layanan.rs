@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Daftar Layanan</name>
+   <tag></tag>
+   <elementGuidId>3dde483b-f05b-4105-8cac-42561cf89427</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/nav/div/div/div/ul/li[7]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>50e7c0d6-0a60-49f6-9130-2c5421a99105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link active</value>
+      <webElementGuid>4699954d-9297-437f-bd74-45db536ba035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/daftar-layanan</value>
+      <webElementGuid>3fa2cad3-7401-4ecf-91f7-fd55af556259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-current</name>
+      <type>Main</type>
+      <value>page</value>
+      <webElementGuid>76d734b5-a13c-4a2c-b189-f3c2ecbd0e36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar Layanan</value>
+      <webElementGuid>128cdd37-38fc-4aee-baab-a11fe732312b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/nav[@class=&quot;navigation sticky-top&quot;]/div[@class=&quot;ant-row container position-relative&quot;]/div[@class=&quot;ant-col ant-col-xs-22 ant-col-xs-offset-1 ant-col-sm-18 ant-col-sm-offset-3 ant-col-md-20 ant-col-md-offset-2 ant-col-lg-22 ant-col-lg-offset-1 ant-col-xl-20 ant-col-xl-offset-2&quot;]/div[@class=&quot;d-none d-lg-block d-md-block d-sm-none&quot;]/ul[@class=&quot;nav justify-content-center&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
+      <webElementGuid>30e3b7c5-b767-45da-b3aa-98686c86bc78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/nav/div/div/div/ul/li[7]/a</value>
+      <webElementGuid>3189129b-f6cd-4213-88e4-a8a9a1fce60f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Daftar Layanan')]</value>
+      <webElementGuid>d419e1a2-2dd6-4ad4-a627-144be75b611e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Menarik'])[1]/following::a[1]</value>
+      <webElementGuid>c616543c-8f6f-41ae-aef8-af1d6dfc92b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Momfinance'])[1]/following::a[2]</value>
+      <webElementGuid>7493ea41-a021-42aa-a94b-f30786caea64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pernikahan'])[2]/preceding::a[2]</value>
+      <webElementGuid>f61dadd7-3dea-479b-869f-5a238c63e82b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Persiapan Kehamilan'])[2]/preceding::a[3]</value>
+      <webElementGuid>b8aa77d1-541a-4876-9f3a-ed72bd203766</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daftar Layanan']/parent::*</value>
+      <webElementGuid>72f554b1-48c5-4b4e-bb74-d1cda3cc8699</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/daftar-layanan')]</value>
+      <webElementGuid>4126f16d-9a48-48a4-93bd-d87a8af0700b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/a</value>
+      <webElementGuid>c80181b4-dde6-45a6-8a58-104d570b89ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/daftar-layanan' and (text() = 'Daftar Layanan' or . = 'Daftar Layanan')]</value>
+      <webElementGuid>a5925620-4f68-45e7-a63a-1d81f6cc7f9a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

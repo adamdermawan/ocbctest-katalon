@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1B" time="255.365" tests="10" failures="1" errors="0">
+   <testsuite name="1B" tests="10" failures="1" errors="0" time="255.365" skipped="0" timestamp="2023-08-24 21:31:51" hostname="Adam - kubernetes.docker.internal" id="Test Suites/1/1B">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_213142\\1\\1B\\20230824_213143"/>
+         <property name="logFiles" value="C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_213142\\1\\1B\\20230824_213143\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_213142\\1\\1B\\20230824_213143\\1692887766985.png"/>
+         <property name="hostName" value="Adam - kubernetes.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.144"/>
+         <property name="sessionId" value="0440974a20e07479073533b6105020ec"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/01 B/01_register_email_positive_email" time="28.341" classname="Test Cases/01 B/01_register_email_positive_email" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:31:51 - [TEST_CASE][PASSED] - Test Cases/01 B/01_register_email_positive_email: Test Cases/01 B/01_register_email_positive_email
+
+2023-08-24 21:31:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:31:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:31:52 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:31:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:31:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:31:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:31:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:31:54 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:31:56 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:31:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:32:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:32:06 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:32:07 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:32:07 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:32:07 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email"), "ayuadis123@gmail.com"): Text 'ayuadis123@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:32:10 - [MESSAGE][PASSED] - Text 'ayuadis123@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password"), "Ayu123"): Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:32:11 - [MESSAGE][PASSED] - Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:32:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass"), "Ayu123"): Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass'
+
+2023-08-24 21:32:12 - [MESSAGE][PASSED] - Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass'
+
+2023-08-24 21:32:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name"), "Bunda"): Text 'Bunda' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name'
+
+2023-08-24 21:32:13 - [MESSAGE][PASSED] - Text 'Bunda' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name'
+
+2023-08-24 21:32:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input' is clicked on
+
+2023-08-24 21:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input' is clicked on
+
+2023-08-24 21:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar' is clicked on
+
+2023-08-24 21:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar' is clicked on
+
+2023-08-24 21:32:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-24 21:32:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-24 21:32:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:32:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/02_register_email_negative_email_scenario" time="12.999" classname="Test Cases/01 B/02_register_email_negative_email_scenario" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:32:20 - [TEST_CASE][PASSED] - Test Cases/01 B/02_register_email_negative_email_scenario: Test Cases/01 B/02_register_email_negative_email_scenario
+
+2023-08-24 21:32:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:32:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:32:20 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:32:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:32:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:32:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:32:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:32:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:32:23 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:32:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-24 21:32:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-24 21:32:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:32:29 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:32:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email"), "adis"): Text 'adis' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:32:32 - [MESSAGE][PASSED] - Text 'adis' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:32:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Format email tidak valid"), 0): Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Format email tidak valid' is present
+
+2023-08-24 21:32:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Format email tidak valid' is present
+
+2023-08-24 21:32:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:32:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/03_register_email_negative_duplicate_email" time="16.844" classname="Test Cases/01 B/03_register_email_negative_duplicate_email" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:32:33 - [TEST_CASE][PASSED] - Test Cases/01 B/03_register_email_negative_duplicate_email: Test Cases/01 B/03_register_email_negative_duplicate_email
+
+2023-08-24 21:32:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:32:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:32:33 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:32:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:32:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:32:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:32:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:32:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:32:36 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:32:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-24 21:32:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-24 21:32:41 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:32:41 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:32:41 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:32:42 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:32:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email"), "alex@gmail.com"): Text 'alex@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:32:44 - [MESSAGE][PASSED] - Text 'alex@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:32:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password"), "Ayu123"): Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:32:45 - [MESSAGE][PASSED] - Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:32:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass"), "Ayu123"): Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass'
+
+2023-08-24 21:32:46 - [MESSAGE][PASSED] - Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass'
+
+2023-08-24 21:32:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name"), "Bunda"): Text 'Bunda' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name'
+
+2023-08-24 21:32:47 - [MESSAGE][PASSED] - Text 'Bunda' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_form_daftar_nick_name'
+
+2023-08-24 21:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input' is clicked on
+
+2023-08-24 21:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Nama panggilan Mom_ant-radio-input' is clicked on
+
+2023-08-24 21:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar' is clicked on
+
+2023-08-24 21:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar' is clicked on
+
+2023-08-24 21:32:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_E-mail sudah terdaftar, silahkan coba dengan alamat e-mail lain ya Mom vyt"), 0): Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_E-mail sudah terdaftar, silahkan coba dengan alamat e-mail lain ya Mom vyt' is present
+
+2023-08-24 21:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:32:49 - [MESSAGE][PASSED] - Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_E-mail sudah terdaftar, silahkan coba dengan alamat e-mail lain ya Mom vyt' is present
+
+2023-08-24 21:32:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:32:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/05_register_email_negative_pass_different" time="21.913" classname="Test Cases/01 B/05_register_email_negative_pass_different" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:32:50 - [TEST_CASE][PASSED] - Test Cases/01 B/05_register_email_negative_pass_different: Test Cases/01 B/05_register_email_negative_pass_different
+
+2023-08-24 21:32:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:32:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:32:50 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:32:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:32:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:32:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:32:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:32:51 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:32:55 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:32:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:33:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:33:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:33:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:33:06 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:33:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email"), "alex@gmail.com"): Text 'alex@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:33:08 - [MESSAGE][PASSED] - Text 'alex@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:33:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password"), "Ayu123"): Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:33:09 - [MESSAGE][PASSED] - Text 'Ayu123' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:33:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass"), "Ayu123456"): Text 'Ayu123456' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass'
+
+2023-08-24 21:33:11 - [MESSAGE][PASSED] - Text 'Ayu123456' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/re-pass'
+
+2023-08-24 21:33:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Konfirmasi kata sandi tidak sesuai"), 0): Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Konfirmasi kata sandi tidak sesuai' is present
+
+2023-08-24 21:33:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:33:11 - [MESSAGE][PASSED] - Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_Konfirmasi kata sandi tidak sesuai' is present
+
+2023-08-24 21:33:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:33:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/04_register_email_negative_invalid_pass" time="19.487" classname="Test Cases/01 B/04_register_email_negative_invalid_pass" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:33:12 - [TEST_CASE][PASSED] - Test Cases/01 B/04_register_email_negative_invalid_pass: Test Cases/01 B/04_register_email_negative_invalid_pass
+
+2023-08-24 21:33:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:33:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:33:12 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:33:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:33:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:33:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:33:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:33:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:33:15 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:33:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:33:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:33:25 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:33:26 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:33:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:33:26 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:33:26 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:33:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Buat Akun Sekarang' is clicked on
+
+2023-08-24 21:33:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/button_Daftar menggunakan e-mail' is clicked on
+
+2023-08-24 21:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email")): Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email' is clicked on
+
+2023-08-24 21:33:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email"), "ayu@gmail.com"): Text 'ayu@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:33:29 - [MESSAGE][PASSED] - Text 'ayu@gmail.com' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_E-mail_form_daftar_email'
+
+2023-08-24 21:33:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password"), "Ayu123."): Text 'Ayu123.' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:33:30 - [MESSAGE][PASSED] - Text 'Ayu123.' is set on object 'Object Repository/mom_register/Page_Daftar Ruangmom  Buat Akun Baru/input_Kata Sandi_form_daftar_password'
+
+2023-08-24 21:33:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_6-30 karakter, kombinasi huruf dan angka, spesial karakter tidak diperkenankan"), 0): Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_6-30 karakter, kombinasi huruf dan angka, spesial karakter tidak diperkenankan' is present
+
+2023-08-24 21:33:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:33:30 - [MESSAGE][PASSED] - Object 'Object Repository/negative scenario/Page_Daftar Ruangmom  Buat Akun Baru/div_6-30 karakter, kombinasi huruf dan angka, spesial karakter tidak diperkenankan' is present
+
+2023-08-24 21:33:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:33:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/06_login_positive_valid_email" time="28.675" classname="Test Cases/01 B/06_login_positive_valid_email" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:33:31 - [TEST_CASE][PASSED] - Test Cases/01 B/06_login_positive_valid_email: Test Cases/01 B/06_login_positive_valid_email
+
+2023-08-24 21:33:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:33:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:33:31 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:33:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:33:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:33:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:33:32 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:33:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:33:34 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:33:34 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:33:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:33:44 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:33:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:33:44 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini")): Object: 'Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini' is clicked on
+
+2023-08-24 21:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini' is clicked on
+
+2023-08-24 21:33:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:33:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email"), "yeni@gmail.com"): Text 'yeni@gmail.com' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email'
+
+2023-08-24 21:33:56 - [MESSAGE][PASSED] - Text 'yeni@gmail.com' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email'
+
+2023-08-24 21:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password"), "Ayu123"): Text 'Ayu123' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password'
+
+2023-08-24 21:33:57 - [MESSAGE][PASSED] - Text 'Ayu123' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password'
+
+2023-08-24 21:33:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme")): Object: 'Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme' is clicked on
+
+2023-08-24 21:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme' is clicked on
+
+2023-08-24 21:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk")): Object: 'Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk' is clicked on
+
+2023-08-24 21:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk' is clicked on
+
+2023-08-24 21:33:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("mom_login/Page_Masuk ke Akun/div_Verifikasi e-mail mom"), 0): Object 'Object Repository/mom_login/Page_Masuk ke Akun/div_Verifikasi e-mail mom' is present
+
+2023-08-24 21:33:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/mom_login/Page_Masuk ke Akun/div_Verifikasi e-mail mom' is present
+
+2023-08-24 21:33:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:34:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/07_login_negative_invalid_email" time="39.16" classname="Test Cases/01 B/07_login_negative_invalid_email" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:34:00 - [TEST_CASE][PASSED] - Test Cases/01 B/07_login_negative_invalid_email: Test Cases/01 B/07_login_negative_invalid_email
+
+2023-08-24 21:34:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:34:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:34:00 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:34:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:34:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:34:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:34:01 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:34:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:34:13 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:34:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:34:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:34:23 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:34:24 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini")): Object: 'Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini' is clicked on
+
+2023-08-24 21:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini' is clicked on
+
+2023-08-24 21:34:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:34:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:34:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email"), "yeni@gmail.com"): Text 'yeni@gmail.com' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email'
+
+2023-08-24 21:34:35 - [MESSAGE][PASSED] - Text 'yeni@gmail.com' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_E-mail Mom_form_login_email'
+
+2023-08-24 21:34:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password"), "Ayu1234"): Text 'Ayu1234' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password'
+
+2023-08-24 21:34:36 - [MESSAGE][PASSED] - Text 'Ayu1234' is set on object 'Object Repository/mom_login/Page_Masuk ke Akun/input_Kata Sandi_form_login_password'
+
+2023-08-24 21:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme")): Object: 'Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme' is clicked on
+
+2023-08-24 21:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_login/Page_Masuk ke Akun/input_Lupa kata sandi_form_login_rememberme' is clicked on
+
+2023-08-24 21:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk")): Object: 'Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk' is clicked on
+
+2023-08-24 21:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_login/Page_Masuk ke Akun/button_Masuk' is clicked on
+
+2023-08-24 21:34:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/mom_login/Page_Masuk ke Akun/div_Data login yang anda masukkan salah"), 0): Object 'Object Repository/mom_login/Page_Masuk ke Akun/div_Data login yang anda masukkan salah' is present
+
+2023-08-24 21:34:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:34:38 - [MESSAGE][PASSED] - Object 'Object Repository/mom_login/Page_Masuk ke Akun/div_Data login yang anda masukkan salah' is present
+
+2023-08-24 21:34:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:34:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/08_forgot_pass_positive" time="19.172" classname="Test Cases/01 B/08_forgot_pass_positive" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:34:39 - [TEST_CASE][PASSED] - Test Cases/01 B/08_forgot_pass_positive: Test Cases/01 B/08_forgot_pass_positive
+
+2023-08-24 21:34:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:34:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:34:39 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:34:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:34:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:34:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:34:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:34:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:34:42 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:34:42 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:34:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:34:52 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:34:53 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:34:53 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:34:53 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini")): Object: 'Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini' is clicked on
+
+2023-08-24 21:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_login/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/a_Masuk di sini' is clicked on
+
+2023-08-24 21:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/forgot_password/Page_Masuk ke Akun/a_Lupa kata sandi")): Object: 'Object Repository/forgot_password/Page_Masuk ke Akun/a_Lupa kata sandi' is clicked on
+
+2023-08-24 21:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/forgot_password/Page_Masuk ke Akun/a_Lupa kata sandi' is clicked on
+
+2023-08-24 21:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/forgot_password/Page_Lupa Password  Ruangmom/input_E-mail_form_forgot_password_email"), "ayuadisti1998@gmail.com"): Text 'ayuadisti1998@gmail.com' is set on object 'Object Repository/forgot_password/Page_Lupa Password  Ruangmom/input_E-mail_form_forgot_password_email'
+
+2023-08-24 21:34:55 - [MESSAGE][PASSED] - Text 'ayuadisti1998@gmail.com' is set on object 'Object Repository/forgot_password/Page_Lupa Password  Ruangmom/input_E-mail_form_forgot_password_email'
+
+2023-08-24 21:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/forgot_password/Page_Lupa Password  Ruangmom/button_Ganti kata sandi baru")): Object: 'Object Repository/forgot_password/Page_Lupa Password  Ruangmom/button_Ganti kata sandi baru' is clicked on
+
+2023-08-24 21:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/forgot_password/Page_Lupa Password  Ruangmom/button_Ganti kata sandi baru' is clicked on
+
+2023-08-24 21:34:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/forgot_password/Page_Lupa Password  Ruangmom/h1_E-mail penggantian kata sandi sudah terkirim"), 0): Object 'Object Repository/forgot_password/Page_Lupa Password  Ruangmom/h1_E-mail penggantian kata sandi sudah terkirim' is present
+
+2023-08-24 21:34:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:34:57 - [MESSAGE][PASSED] - Object 'Object Repository/forgot_password/Page_Lupa Password  Ruangmom/h1_E-mail penggantian kata sandi sudah terkirim' is present
+
+2023-08-24 21:34:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:34:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/09_search_positive" time="18.08" classname="Test Cases/01 B/09_search_positive" status="PASSED">
+         <system-out><![CDATA[2023-08-24 21:34:58 - [TEST_CASE][PASSED] - Test Cases/01 B/09_search_positive: Test Cases/01 B/09_search_positive
+
+2023-08-24 21:34:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:34:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:34:58 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:34:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:34:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:34:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:34:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:34:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:35:01 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:35:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:35:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:35:11 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:35:11 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/back/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/span_Dapatkan aplikasi Ruangmom_ant-modal-close-x")): Object: 'Object Repository/back/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/span_Dapatkan aplikasi Ruangmom_ant-modal-close-x' is clicked on
+
+2023-08-24 21:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/back/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/span_Dapatkan aplikasi Ruangmom_ant-modal-close-x' is clicked on
+
+2023-08-24 21:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan")): Object: 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan' is clicked on
+
+2023-08-24 21:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan' is clicked on
+
+2023-08-24 21:35:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput"), "Cherry"): Text 'Cherry' is set on object 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput'
+
+2023-08-24 21:35:14 - [MESSAGE][PASSED] - Text 'Cherry' is set on object 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput'
+
+2023-08-24 21:35:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput'
+
+2023-08-24 21:35:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/input_Daftar Layanan_searchMerchantInput'
+
+2023-08-24 21:35:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/mom_search/Page_Cherry/a_Cherry Mom n Baby Spa"), 0): Object 'Object Repository/mom_search/Page_Cherry/a_Cherry Mom n Baby Spa' is present
+
+2023-08-24 21:35:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-24 21:35:16 - [MESSAGE][PASSED] - Object 'Object Repository/mom_search/Page_Cherry/a_Cherry Mom n Baby Spa' is present
+
+2023-08-24 21:35:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-24 21:35:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 B/10_search_negative_jaksel" time="50.482" classname="Test Cases/01 B/10_search_negative_jaksel" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01 B/10_search_negative_jaksel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 10_search_negative_jaksel.run(10_search_negative_jaksel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692887503899.run(TempTestSuite1692887503899.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span>...&lt;/span> is not clickable at point (274, 688). Other element would receive the click: &lt;div class=&quot;button-filter&quot;>...&lt;/div>
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0440974a20e07479073533b6105020ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-24 21:35:16 - [TEST_CASE][FAILED] - Test Cases/01 B/10_search_negative_jaksel: Test Cases/01 B/10_search_negative_jaksel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 10_search_negative_jaksel.run(10_search_negative_jaksel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692887503899.run(TempTestSuite1692887503899.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (274, 688). Other element would receive the click: <div class="button-filter">...</div>
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0440974a20e07479073533b6105020ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-24 21:35:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-24 21:35:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 21:35:16 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Users\Adam\Katalon Studio\Test\Download}']
+
+2023-08-24 21:35:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 21:35:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 21:35:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-24 21:35:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 21:35:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.ruangmom.com/"): Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:35:21 - [MESSAGE][PASSED] - Navigate to 'https://www.ruangmom.com/' successfully
+
+2023-08-24 21:35:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-24 21:35:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-24 21:35:31 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali"), 20)): null
+
+2023-08-24 21:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/div_Ingin mendapatkan informasi terbaru dari RuangmomAktifkan notifikasi sekarang.AktifkanLain kali' is present
+
+2023-08-24 21:35:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali")): Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/button_Lain kali' is clicked on
+
+2023-08-24 21:35:32 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2"), 20)): null
+
+2023-08-24 21:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/mom_register/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/verif2' is present
+
+2023-08-24 21:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/back/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/span_Dapatkan aplikasi Ruangmom_ant-modal-close-x")): Object: 'Object Repository/back/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/span_Dapatkan aplikasi Ruangmom_ant-modal-close-x' is clicked on
+
+2023-08-24 21:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/back/Page_Informasi Kehamilan dan Keuangan bagi Ibu Hamil - RuangMom/span_Dapatkan aplikasi Ruangmom_ant-modal-close-x' is clicked on
+
+2023-08-24 21:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan")): Object: 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan' is clicked on
+
+2023-08-24 21:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/mom_search/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/a_Daftar Layanan' is clicked on
+
+2023-08-24 21:35:33 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan")): Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 10_search_negative_jaksel.run(10_search_negative_jaksel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692887503899.run(TempTestSuite1692887503899.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (274, 688). Other element would receive the click: <div class="button-filter">...</div>
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0440974a20e07479073533b6105020ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1692885855935.run(Script1692885855935.groovy:40)
+	... 13 more
+)
+
+2023-08-24 21:36:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 10_search_negative_jaksel.run(10_search_negative_jaksel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692887503899.run(TempTestSuite1692887503899.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (274, 688). Other element would receive the click: <div class="button-filter">...</div>
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0440974a20e07479073533b6105020ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1692885855935.run(Script1692885855935.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Adam\\Katalon Studio\\SectionA_Ayu_Adisti\\Reports\\20230824_213142\\1\\1B\\20230824_213143\\1692887766985.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-24 21:35:16 - [TEST_CASE][FAILED] - Test Cases/01 B/10_search_negative_jaksel: Test Cases/01 B/10_search_negative_jaksel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 10_search_negative_jaksel.run(10_search_negative_jaksel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692887503899.run(TempTestSuite1692887503899.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (274, 688). Other element would receive the click: <div class="button-filter">...</div>
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0440974a20e07479073533b6105020ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-24 21:31:51 - [TEST_SUITE][FAILED] - 1B: Test Cases/01 B/10_search_negative_jaksel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 10_search_negative_jaksel.run(10_search_negative_jaksel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692887503899.run(TempTestSuite1692887503899.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (274, 688). Other element would receive the click: <div class="button-filter">...</div>
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0440974a20e07479073533b6105020ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-24 21:31:51 - [TEST_SUITE][FAILED] - 1B: Test Cases/01 B/10_search_negative_jaksel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mom_jaksel/Page_Daftar Layanan Kesehatan  Gaya Hidup di Indonesia/span_Kota Jakarta Selatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 10_search_negative_jaksel.run(10_search_negative_jaksel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692887503899.run(TempTestSuite1692887503899.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (274, 688). Other element would receive the click: <div class="button-filter">...</div>
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HP-OMEN-ADAM', ip: '192.168.100.144', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Adam\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0440974a20e07479073533b6105020ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

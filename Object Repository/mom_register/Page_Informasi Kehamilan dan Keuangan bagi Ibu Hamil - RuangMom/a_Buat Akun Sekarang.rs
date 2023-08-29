@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Buat Akun Sekarang</name>
+   <tag></tag>
+   <elementGuidId>83886066-7713-4b28-ac9a-49d47d144fae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ant-btn.ant-btn-primary.ant-btn-lg.ant-btn-round.mt-3.mb-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@type='primary']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>708fdfd2-4651-4670-b166-991a14f0b122</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>dd405605-5747-4c23-b151-e94a49321c27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-primary ant-btn-lg ant-btn-round mt-3 mb-4</value>
+      <webElementGuid>f98db168-9a6b-4e0e-9e19-1983bd65e992</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/signup</value>
+      <webElementGuid>263843c7-9763-415f-b7c3-c0c6918645a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buat Akun Sekarang</value>
+      <webElementGuid>f8a5963a-bc1e-4d1a-8b94-d167ae1ff9eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ant-scrolling-effect&quot;]/div[3]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal modal-rm modal-signup&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/a[@class=&quot;ant-btn ant-btn-primary ant-btn-lg ant-btn-round mt-3 mb-4&quot;]</value>
+      <webElementGuid>c8aad7eb-b87a-42dc-9382-9c4843958b1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@type='primary']</value>
+      <webElementGuid>465b7304-1524-4cd3-a75d-e0bce9e4ae89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Buat Akun Sekarang')]</value>
+      <webElementGuid>dae9c6fd-05fd-4c0a-96c9-a17ba5e596f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat akun Ruangmom, yuk!'])[1]/following::a[1]</value>
+      <webElementGuid>7bfd62cd-e29d-411c-b9b4-d08663dfa218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dapatkan aplikasi Ruangmom'])[2]/following::a[3]</value>
+      <webElementGuid>ee2d19f8-c492-40bb-88f1-6cb3cd14b8bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk di sini'])[1]/preceding::a[1]</value>
+      <webElementGuid>dd9cafde-7310-4f3a-a5fb-1895ef13247b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>ba51eef5-d0e8-477e-8921-9262dd27e4ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Buat Akun Sekarang']/parent::*</value>
+      <webElementGuid>45900bd3-d19a-4168-943d-76b485cc2b0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/signup')])[3]</value>
+      <webElementGuid>d6b28f74-aaec-448b-a93b-e2c727f755ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div[2]/div/a</value>
+      <webElementGuid>592fd48c-d066-4e8f-bf11-7cb2b460137f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@type = 'primary' and @href = '/signup' and (text() = 'Buat Akun Sekarang' or . = 'Buat Akun Sekarang')]</value>
+      <webElementGuid>4a5deda6-6724-4c05-a9d1-e01374b51ef1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

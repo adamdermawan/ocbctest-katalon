@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Daftar Layanan  di Kota Jakarta Selatan</name>
+   <tag></tag>
+   <elementGuidId>021e577b-bb7a-4375-8dc1-79b1dbb3717a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.merchant__text--title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>72ffdc9b-7194-438c-8a7e-e974702ffad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>merchant__text--title</value>
+      <webElementGuid>d3f5a2e9-8091-45b7-8cc0-94c7447efcb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar Layanan  di Kota Jakarta Selatan</value>
+      <webElementGuid>2b895dc5-f722-4123-83f7-07d2bde82280</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-22 ant-col-xs-offset-1 ant-col-sm-18 ant-col-sm-offset-3 ant-col-md-20 ant-col-md-offset-2 ant-col-lg-22 ant-col-lg-offset-1 ant-col-xl-18 ant-col-xl-offset-3&quot;]/div[@class=&quot;ant-row merchant&quot;]/div[@class=&quot;ant-col ant-col-md-24 ant-col-lg-18&quot;]/div[@class=&quot;merchant__text&quot;]/h1[@class=&quot;merchant__text--title&quot;]</value>
+      <webElementGuid>86ea6a04-f629-42bd-b221-75f7a5abeb9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/h1</value>
+      <webElementGuid>73f1be91-1abc-402e-a300-e0bc10aa3075</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terapkan'])[1]/following::h1[1]</value>
+      <webElementGuid>6d55fdb3-e63a-4145-adc0-317103ac46e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/following::h1[1]</value>
+      <webElementGuid>41347c72-003a-4aa3-8a6e-6a13c3eeb459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gudang-Gudang Yoga Studio'])[1]/preceding::h1[1]</value>
+      <webElementGuid>77e72f30-5078-4771-9411-d710b154ec3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>07dfe4c7-6ed3-45e1-a684-9ccc9bf1a2e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Daftar Layanan  di Kota Jakarta Selatan' or . = 'Daftar Layanan  di Kota Jakarta Selatan')]</value>
+      <webElementGuid>459e6e10-1821-45a5-8432-3b9bfe1271d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
